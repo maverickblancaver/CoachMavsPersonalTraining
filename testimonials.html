@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Coach Mav</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Coach Mav - Personal Training</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="personal_training.html">Personal Training</a></li>
+                <li><a href="testimonials.html" class="active">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <p>Here are some feedback and success stories from my clients.</p>
+
+        <div class="testimonial-gallery">
+            <!-- Uploaded testimonials will be displayed here -->
+            <div class="testimonial-item">
+                <img src="images/testimonial1.jpg" alt="Client Testimonial 1">
+            </div>
+            <div class="testimonial-item">
+                <img src="images/testimonial2.jpg" alt="Client Testimonial 2">
+            </div>
+            <div class="testimonial-item">
+                <img src="images/testimonial3.jpg" alt="Client Testimonial 3">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coach Mav - Personal Training. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav ul").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

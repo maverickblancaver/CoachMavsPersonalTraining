@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Coach Mav</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="personal_training.html">Personal Training</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="about-container">
+        <div class="about-image">
+            <img src="images/475579364_904688761534780_4952127244495808356_n.jpg" alt="Coach Mav">
+        </div>
+        <div class="about-text">
+            <h2>My Journey</h2>
+            <p>Welcome! I’m Coach Mav, a passionate personal trainer dedicated to helping individuals transform their fitness journey. With years of experience in strength training, conditioning, and personalized coaching, I am here to guide you towards your goals.</p>
+            <p>My journey started with a deep love for fitness and a strong desire to inspire others. Whether you're a beginner or an experienced athlete, I tailor my training programs to meet your specific needs. Let's build strength, endurance, and confidence together!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coach Mav - Personal Training. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav ul").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

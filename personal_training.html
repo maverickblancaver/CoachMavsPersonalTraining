@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training - Coach Mav</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Training with Coach Mav</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="personal_training.html" class="active">Personal Training</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="training-intro">
+        <h2>Train with Me - Anytime, Anywhere</h2>
+        <p>Whether you prefer training online, at the gym, at home, or in person, I have personalized training programs designed to fit your needs.</p>
+    </section>
+
+    <section class="training-options">
+        <div class="training-box">
+            <h3>Online Training</h3>
+            <p>Train with me from anywhere in the world with customized online programs and live coaching.</p>
+        </div>
+        <div class="training-box">
+            <h3>In-Person Training</h3>
+            <p>Work one-on-one with me in a gym setting to maximize your fitness potential.</p>
+        </div>
+    </section>
+
+    <section class="training-gallery">
+        <h2>Personal Training Gallery</h2>
+        <p>Check out some moments from my training sessions.</p>
+        <div class="gallery-container">
+            <img src="images/Personaltraining/481041336_1267447664320513_7301290216914849712_n.jpg" alt="Training Session 1">
+            <img src="images/Personaltraining/cc476112-89d3-4695-8939-8c13a9968c67.jpg" alt="Training Session 2">
+            <img src="images/Personaltraining/a57112d1-8e86-446b-8f5b-e5460e9e8365.jpg" alt="Training Session 3">
+            <img src="images/Personaltraining/6548867b-5815-4e92-8937-8f2e9e904af4.jpg" alt="Training Session 4">
+        </div>
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coach Mav - Personal Training. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav ul").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

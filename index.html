@@ -9,71 +9,34 @@
 <body>
     <header>
         <h1>Coach Mav - Personal Training</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certifications.html">Certifications</a></li>
+                <li><a href="personal_training.html">Personal Training</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <div class="cover-photo">
             <img src="images/473429544_1871112510366436_6369349545187048427_n.jpg" alt="Cover Photo 1">
             <img src="images/478159803_1793014381540812_2497121461546198711_n.jpg" alt="Cover Photo 2">
         </div>
     </header>
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I’ve been physically active since childhood, and my passion for teaching grew even stronger during my two-year missionary service. Helping others learn and grow was an incredibly fulfilling experience, and I hoped to continue teaching—this time, in something I was deeply passionate about: fitness.  
-            When I returned home, people began asking me how to start their fitness journey, but I wasn’t sure how to guide them. That all changed when a gym owner reached out to me with an unexpected opportunity—to become a personal trainer. Without hesitation, I accepted the offer. They handed me a textbook on personal training, and I dedicated myself to studying it, completing it within three months. But I knew I needed more.  
-            Determined to improve, I enrolled in the Gold’s Gym Fitness Instructor's Course. Through hard work and dedication, I successfully completed and passed the program. The experience taught me invaluable lessons, but I knew this was just the beginning.  
-            This journey isn’t just about getting certified—it’s about growth, mastery, and making a real impact. I will continue to expand my knowledge, pursue higher professional certifications, and refine my skills. My mission is clear: to help others become the strongest, healthiest versions of themselves.</p>
+    <section class="welcome">
+        <h2>Welcome to Coach Mav's Personal Training</h2>
+        <p>Your journey to fitness begins here. Explore my skills, certifications, and training programs designed to help you achieve your goals.</p>
     </section>
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Strength Training & Conditioning</li>
-            <li>Cardiorespiratory Training</li>
-            <li>Weight Loss & Fat Loss Coaching</li>
-            <li>Flexibility Training</li>
-            <li>Corrective Exercise & Injury Prevention</li>
-            <li>Nutritional Guidance</li>
-            <li>Exercise Programming & Periodization</li>
-            <li>HIIT & Circuit Training</li>
-            <li>Balance & Stability Training</li>
-        </ul>
-    </section>
-    <section class="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Gold’s Gym Fitness Instructor Course (In-Person) - 2025</li>
-            <li>American Council on Exercise – Integrated Fitness Training (Online) - 2024</li>
-            <li>International Universities Strength & Conditioning Association – Level 1 Strength & Conditioning Certificate (Online) - 2024</li>
-        </ul>
-    </section>
-    <section class="gallery">
-        <h2>Showcase</h2>
-        <div class="images">
-            <img src="images/Personaltraining/471979394_1085927293332562_6918162217406900453_n.jpg" alt="Workout Showcase 1">
-            <img src="images/Personaltraining/d3a10f6b-8cf6-4225-9f17-225744a5ee40.jpg" alt="Workout Showcase 2">
-            <img src="images/Personaltraining/481510416_984767449765079_3380439598866389652_n.gif" alt="Workout Showcase 3">
-        </div>
-    </section>
-    <section class="showcase">
-        <h2>Personal Training Sessions</h2>
-        <div class="images">
-            <img src="images/Personaltraining/a57112d1-8e86-446b-8f5b-e5460e9e8365.jpg" alt="In-Person Training">
-            <img src="images/Personaltraining/6548867b-5815-4e92-8937-8f2e9e904af4.jpg" alt="Live Workout Session">
-            <img src="images/Personaltraining/cc476112-89d3-4695-8939-8c13a9968c67.jpg" alt="Online Coaching">   
-        </div>
-    </section>
-
-    <!-- <section class="showcase">
-        <h2>Reviews</h2>
-        <div class="images">
-            <img src="images/Personaltraining/a57112d1-8e86-446b-8f5b-e5460e9e8365.jpg" alt="In-Person Training">
-            <img src="images/Personaltraining/6548867b-5815-4e92-8937-8f2e9e904af4.jpg" alt="Live Workout Session">
-            <img src="images/Personaltraining/cc476112-89d3-4695-8939-8c13a9968c67.jpg" alt="Online Coaching">   
-        </div>
-    </section> -->
-
 </body>
-
 <footer>
     <p>&copy; 2025 Coach Mav - Personal Training. All rights reserved.</p>
-    <p>Follow me on <a href="https://www.instagram.com/rc.blancs/" target="_blank">Instagram</a> | <a href="https://www.facebook.com/maverick.blancaver.31/" target="_blank">Facebook</a></p>
 </footer>
-
+<script>
+    function toggleMenu() {
+        document.querySelector("nav ul").classList.toggle("active");
+    }
+</script>
 </html>
