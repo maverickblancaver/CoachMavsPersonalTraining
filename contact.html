@@ -10,7 +10,7 @@
     <header>
         <h1>Contact Me</h1>
     </header>
-    
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -39,5 +39,12 @@
     <footer>
         <p>&copy; 2025 Coach Mav - Personal Training. All rights reserved.</p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector("nav ul").classList.toggle("active");
+        }
+    </script>
+
 </body>
 </html>
